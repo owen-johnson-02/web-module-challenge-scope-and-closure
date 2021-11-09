@@ -83,9 +83,17 @@ Use the finalScore function below to do the following:
 }
 */
 
-function finalScore(/*code Here*/) {
-  /*Code Here*/
+function finalScore(inning, numInnings) {
+  let homeScore = inning;
+  let awayScore = inning;
+  var finalScore = {
+    Home: homeScore,
+    Away: awayScore,
+  };
+  return finalScore;
 }
+
+console.log(finalScore(inning(), 9));
 
 /* ⚾️⚾️⚾️ Task 4: getInningScore() ⚾️⚾️⚾️
 Use the getInningScore() function below to do the following:
